@@ -13,5 +13,7 @@ class Book extends Model
         'title',
         'author',
         'foodform',
+        'material',
+        'category',
     ];
 }

@@ -18,6 +18,8 @@ return new class extends Migration
             $table->string('title');
             $table->string('author');
             $table->string('foodform');
+            $table->string('material');
+            $table->string('category');
             $table->timestamps();
         });
     }
